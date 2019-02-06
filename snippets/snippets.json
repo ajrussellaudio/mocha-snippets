@@ -1,1 +1,18 @@
-{}
+{
+  "Mocha: Test suite": {
+    "prefix": "_ms",
+    "body": "suite('${1:name}', () => {\n\t${0}\n});"
+  },
+  "Mocha: Setup": {
+    "prefix": "_mp",
+    "body": "setup(() => {\n\t${0}\n);"
+  },
+  "Mocha: Test": {
+    "prefix": "_mt",
+    "body": "test('${1:description}', () => {\n\t${0}\n});"
+  },
+  "Assert: Equal": {
+    "prefix": "_ae",
+    "body": "assert.equal(${1:actual}, ${2:expected});"
+  }
+}
